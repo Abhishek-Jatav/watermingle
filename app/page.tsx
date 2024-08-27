@@ -1,8 +1,8 @@
-import Image from "next/image";
 import Herosection from "./components/Herosection";
 import IconsSection from "./components/IconsSection";
 import ProductSection from "./components/ProductSection";
 import DetailSection from "./components/DetailSection";
+import ContactForm from "./components/ContactForm";
 
 export default function Home() {
   return (
@@ -21,7 +21,11 @@ export default function Home() {
       <DetailSection />
       
       {/* Detail Section - 2 */}
-      <DetailSection/>
+      <DetailSection />
+      
+      {/* Contact Form */}
+      <ContactForm />
+
 </div>
   );
 }

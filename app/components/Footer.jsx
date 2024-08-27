@@ -13,14 +13,14 @@ export default function Footer() {
           href="/"
           className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
           <span className="text-custom-pink font-sans font-extrabold  text-xl">
-            TravelIndia
+            waterMingle
           </span>
           <span className="text-custom-pink font-sans font-bold text-sm">
-            .tours
+            .in
           </span>
         </Link>
         <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-          © Travelindia.tours
+          © waterMingle
         </p>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <Link href="/" className="ml-3 text-custom-pink">
