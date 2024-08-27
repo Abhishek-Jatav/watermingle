@@ -16,8 +16,8 @@ export default function Navbar() {
             Distribute
           </Link>
           <Link href="/" className="mr-5 hover:text-gray-900 flex flex-col">
-            <div>Water</div>
-            <div>mingle</div>
+            <div className="font-bold text-blue-700">Water</div>
+            <div className="font-semibold text-black" >mingle</div>
           </Link>
           <Link href="/" className="mr-5 hover:text-gray-900">
             Hall of Fame
