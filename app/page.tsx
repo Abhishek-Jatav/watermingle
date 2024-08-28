@@ -7,7 +7,6 @@ import ContactForm from "./components/ContactForm";
 export default function Home() {
   return (
     <div>
-      Home
       {/* Hero  section  */}
       <Herosection />
 
@@ -21,7 +20,6 @@ export default function Home() {
       <DetailSection />
       
       {/* Detail Section - 2 */}
-      <DetailSection />
       
       {/* Contact Form */}
       <ContactForm />
