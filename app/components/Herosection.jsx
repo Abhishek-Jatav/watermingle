@@ -7,8 +7,11 @@ export default function Herosection() {
       <div className="container mx-auto  w-full h-1vh flex px-5 py-20 items-center justify-center flex-col">
         <div className="text-center lg:w-2/3 w-full">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-            {` ​Put Your Brand In Everyone's Hand!`}
+            {`Elevating Your Brand Through Innovative Marketing`}
           </h1>
+          <p className=" mb-4">
+            We bring your brand to life with strategic and creative solutions.
+          </p>
           <div className="flex justify-center">
             <button className="inline-flex text-black  border-2 border-black py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
               Advertise with us

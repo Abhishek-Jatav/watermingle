@@ -9,23 +9,18 @@ export default function Navbar() {
           <Link href="/" className="mr-5 hover:text-gray-900">
             Home
           </Link>
-          <Link href="/" className="mr-5 hover:text-gray-900">
+          <Link href="/advertise" className="mr-5 hover:text-gray-900">
             Advertise
           </Link>
-          <Link href="/" className="mr-5 hover:text-gray-900">
-            Distribute
-          </Link>
+
           <Link href="/" className="mr-5 hover:text-gray-900 flex flex-col">
             <div className="font-bold text-blue-700">Water</div>
             <div className="font-semibold text-black" >mingle</div>
           </Link>
-          <Link href="/" className="mr-5 hover:text-gray-900">
-            Hall of Fame
-          </Link>
-          <Link href="/" className="mr-5 hover:text-gray-900">
+          <Link href="/faq" className="mr-5 hover:text-gray-900">
             FAQ
           </Link>
-          <Link href="/" className="mr-5 hover:text-gray-900">
+          <Link href="/contact" className="mr-5 hover:text-gray-900">
             Contact Us
           </Link>
         </div>
