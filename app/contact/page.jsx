@@ -1,4 +1,5 @@
 import React from 'react'
+import EmailForm from '../components/EmailForm';
 
 export default function page() {
   return (
@@ -8,6 +9,7 @@ export default function page() {
         {` > `}
         <span>Contact Us</span>
       </div>
+      <EmailForm />
     </div>
   );
 }
