@@ -1,0 +1,24 @@
+
+
+/* This is the adverting button */ 
+
+.button {
+  padding: 15px 20px;
+  border: none;
+  outline: none;
+  background-color: #283044;
+  color: #eee;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+}
+
+.button:hover {
+  transform: translateY(-9px);
+}
+
+.button-span {
+  color: #aaa;
+}
+
+

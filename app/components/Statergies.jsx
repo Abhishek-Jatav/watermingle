@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from "../styles/Statergies.module.css"
 
 export default function Statergies() {
   return (
@@ -11,12 +12,14 @@ export default function Statergies() {
         </div>
         <div className="flex flex-wrap md:-m-2 -m-1">
           <div className="flex flex-wrap w-1/2">
-            <div className="md:p-2 p-1 w-1/2">
+            <div className={`${styles.cardInfo} md:p-2 p-1 w-1/2`}>
               <div className="w-full object-cover h-full object-center block">
-                <h2 class="title-font font-medium text-gray-900  text-sm mb-2">
+                <h2
+                  class={`${styles.title} title-font font-medium text-gray-900  text-sm mb-2`}>
                   Audience Research
                 </h2>
-                <p class=" mx-auto leading-relaxed text-base">
+                <p
+                  className={`${styles.card} mx-auto leading-relaxed text-base`}>
                   Understanding your target audience is key to crafting
                   effective marketing strategies.
                 </p>
