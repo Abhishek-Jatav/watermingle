@@ -34,9 +34,11 @@ export default function FaqPage() {
           </button>
           <div className={`${activeAccordion === 1 ? "block" : "hidden"} p-4`}>
             <p>
+              {`
               We place your brand's advertisement on water bottles and other
               items requested by you. We then distribute these items to targeted
               consumers, helping your brand gain exposure.
+           `}{" "}
             </p>
           </div>
         </div>
@@ -90,11 +92,11 @@ export default function FaqPage() {
             </span>
           </button>
           <div className={`${activeAccordion === 4 ? "block" : "hidden"} p-4`}>
-            <p>
+            <p>{`
               In addition to water bottles, you can request specific items such
               as tote bags, pens, t-shirts, or any other items relevant to your
               brand’s needs.
-            </p>
+            `}</p>
           </div>
         </div>
 
@@ -104,16 +106,18 @@ export default function FaqPage() {
             className="w-full text-left p-4 bg-gray-100 font-semibold"
             onClick={() => toggleAccordion(5)}>
             <span>
+              {`
               How do you ensure the quality of the water bottles and items with
               my brand's label?
+              `}
               <span>{` -->`}</span>
             </span>
           </button>
           <div className={`${activeAccordion === 5 ? "block" : "hidden"} p-4`}>
-            <p>
+            <p>{`
               We collaborate with high-quality suppliers and ensure that all
               items meet the standards that align with your brand's reputation.
-            </p>
+            `}</p>
           </div>
         </div>
 
@@ -181,7 +185,9 @@ export default function FaqPage() {
             className="w-full text-left p-4 bg-gray-100 font-semibold"
             onClick={() => toggleAccordion(9)}>
             <span>
+              {`
               How do you measure the success of my brand's advertisement?
+              `}
               <span>{` -->`}</span>
             </span>
           </button>

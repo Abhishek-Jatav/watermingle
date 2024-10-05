@@ -39,7 +39,7 @@ export default function page() {
               </p>
 
               <div className="flex">
-                <Link href="/" className={styles.button}>
+                <Link href="/contact" className={styles.button}>
                   Advertise With Us
                 </Link>
               </div>
@@ -69,9 +69,9 @@ export default function page() {
               </p>
 
               <div className="flex">
-                <button className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
-                  Button
-                </button>
+                <Link href="/contact" className={styles.button}>
+                  Advertise With Us
+                </Link>
               </div>
             </div>
             <Image
