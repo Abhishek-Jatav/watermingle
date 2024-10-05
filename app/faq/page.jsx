@@ -20,13 +20,16 @@ export default function FaqPage() {
       </div>
 
       <div className="max-w-lg mx-auto flex flex-col justify-center items-center">
-        <h1>General</h1>
+        <h1 className="sm:text-3xl text-2xl font-medium font-fredoka bg-customDark rounded-md p-3 pl-16 pr-16 mb-10 text-white">
+          General Questions
+        </h1>
         {/* Accordion Item 1 */}
-        <div className="border border-gray-200 rounded-md mb-2">
+        <div className=" border-black border-2 w-full rounded-md mb-2">
           <button
-            className="w-full text-left p-4 bg-gray-100 font-semibold"
+            className="w-full text-left p-4 bg-gray-100 space-x-80 font-semibold"
             onClick={() => toggleAccordion(1)}>
-            Accordion Item 1
+            <span>Accordion Item 1</span>
+            <span>{`↓`}</span>
           </button>
           <div className={`${activeAccordion === 1 ? "block" : "hidden"} p-4`}>
             <p>This is the content of Accordion Item 1.</p>
@@ -34,28 +37,8 @@ export default function FaqPage() {
         </div>
 
         {/* Accordion Item 2 */}
-        <div className="border border-gray-200 rounded-md mb-2">
-          <button
-            className="w-full text-left p-4 bg-gray-100 font-semibold"
-            onClick={() => toggleAccordion(2)}>
-            Accordion Item 2
-          </button>
-          <div className={`${activeAccordion === 2 ? "block" : "hidden"} p-4`}>
-            <p>This is the content of Accordion Item 2.</p>
-          </div>
-        </div>
 
         {/* Accordion Item 3 */}
-        <div className="border border-gray-200 rounded-md mb-2">
-          <button
-            className="w-full text-left p-4 bg-gray-100 font-semibold"
-            onClick={() => toggleAccordion(3)}>
-            Accordion Item 3
-          </button>
-          <div className={`${activeAccordion === 3 ? "block" : "hidden"} p-4`}>
-            <p>This is the content of Accordion Item 3.</p>
-          </div>
-        </div>
       </div>
     </div>
   );

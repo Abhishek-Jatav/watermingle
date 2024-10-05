@@ -63,9 +63,9 @@ export default function EmailForm() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-gray-100 to-white text-gray-900">
+    <div className="flex flex-col mt-10  items-center justify-center min-h-screen bg-gradient-to-b from-gray-100 to-white text-gray-900">
       <div className="max-w-md w-full">
-        <h1 className="text-3xl font-bold mb-8 text-center">Contact Us</h1>
+        <h1 className={`${styles.contact} font-fredoka font-bold text-2xl text-center m-5`}>Contact Us</h1>
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>
             <label htmlFor="name" className="block mb-1">
@@ -127,7 +127,7 @@ export default function EmailForm() {
           <button
             type="submit"
             disabled={isSubmitting}
-            className={`w-full px-4 py-2 text-white bg-customDark rounded hover:py-2.5 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 ${
+            className={`${styles.button} w-full px-4 py-2 text-white bg-customDark rounded  focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 ${
               isSubmitting ? "opacity-50 cursor-not-allowed" : ""
             }`}>
             {isSubmitting ? "Sending..." : "Send Email"}
