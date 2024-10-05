@@ -6,6 +6,10 @@ import Link from "next/link";
 export default function Herosection() {
   return (
     <section className="text-gray-600 body-font">
+      <div className="ml-10">
+        {` > `}
+        <span className="text-blue-400">Home</span>
+      </div>
       <div className="container mx-auto  w-full h-1vh flex px-5 py-20 items-center justify-center flex-col">
         <div className="text-center lg:w-2/3 w-full">
           <h1 className="font-fredoka sm:text-4xl text-3xl mb-4 font-semibold text-gray-900">

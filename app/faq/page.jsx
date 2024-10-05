@@ -14,9 +14,9 @@ export default function FaqPage() {
   return (
     <div>
       <div className="ml-10">
-        <span className="text-blue-400">Home</span>
+        <span className="text-customDark">Home</span>
         {` > `}
-        <span>FAQ</span>
+        <span className="text-blue-400">FAQs</span>
       </div>
 
       <div className="max-w-lg mx-auto flex flex-col justify-center items-center">

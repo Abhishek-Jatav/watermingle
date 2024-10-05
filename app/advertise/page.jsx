@@ -10,9 +10,9 @@ export default function page() {
   return (
     <div>
       <div className="ml-10">
-        <span className="text-blue-400">Home</span>
+        <span className="text-customDark">Home</span>
         {` > `}
-        <span>Advertise</span>
+        <span className="text-blue-400">Advertise</span>
       </div>
 
       {/* Section 1 */}
